@@ -86,7 +86,10 @@ int main(){
     auto obj = calculate_objective_value(X, C);
     auto violation = calculate_violation(X, a, b);
 
-    cout << obj << ", " << violation << ", " << msec << "\n";
+    // cout << obj << ", " << violation << ", " << msec << "\n";
+    cout << obj << "\n";
+    cout << violation << "\n";
+    cout << msec << "\n";
 
     // output the solution matrix
     for(int i=0;i<n;i++){
